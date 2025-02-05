@@ -1,0 +1,70 @@
+/*Assignment 2 
+Single HTML Page with Content Page styled with CSS   
+My expectation for this is good (and validated) CSS styling applied to the HTML assignment 
+from last week.  The purpose of this assignment is to work with basic CSS. 
+Please, no JavaScript or Bootstrap yet, just pure CSS.   
+Your CSS file must be an external style sheet (named mystyle.css) and added to each of your 
+HTML page(s) using a <link> tag (info here: https://www.w3schools.com/css/css_howto.asp) 
+We’ve now achieved separation of content from design 
+
+What’s the grading scheme?  I’m looking to see: 
+1. A font, font colour and background colour applied to the whole site  
+2. A styled navigation bar at the top  
+3. A styled footer at the bottom 
+4. A styled main body/content area (surrounding your images or lists, etc.) 
+5. … other styling as you like (try styling another element on your site, of your choice, and 
+indicate so with comments in your code – for example, add styles to your HTML table or 
+lists) 
+Your best resources for help: 
+• W3schools 
+o https://www.w3schools.com/html/  
+• HTML5 Semantic Elements 
+o https://www.w3schools.com/html/html5_semantic_elements.asp  
+• CaCHe 
+o https://cs.acadiau.ca/cache-help.html  
+• W3C Markup Validator 
+o https://validator.w3.org/  
+• CSS Validator 
+o https://jigsaw.w3.org/css-validator/ 
+*/
+
+body{
+    background-color: rgb(104, 228, 201);
+}
+
+h1{
+    color:rgb(235, 95, 193);
+    margin-top: 20px;
+}
+h2{
+    color:rgb(235, 95, 193);
+    margin-top: 20px;
+}
+
+P{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2160b1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 247, 255);
+    text-align: right;
+    padding: 18px 16px;
+    text-decoration:solid ;
+    border-right: 2px solid #000000;
+  }
+
+  
