@@ -31,14 +31,22 @@ o https://getbootstrap.com/docs/4.1/getting-started/introduction/  --->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     
-        <body>
-            <ul>
-                <li><a href="https://github.com/JayJPatel223?tab=overview&from=2025-01-01&to=2025-01-14">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/jaypatel0322/">Linkedin</a></li>
-              </ul>
+        <body class="bg-light text-dark">
+
+            <!--navigation bar-->
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">My Portfolio</a>
+                    <ul class="navbar-nav ms-auto d-flex flex-row">
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/JayJPatel223">GitHub</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jaypatel0322/">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
             <section>
             <h1><b>PORTFOLIO</b></h1>
             <h2> <u><i>INTRODUCTION</i></u> </h2> 
@@ -47,6 +55,8 @@ o https://getbootstrap.com/docs/4.1/getting-started/introduction/  --->
                 I aim to learn more and take as much knowledge and experience I can.<br>
             </p>
             </section>
+
+            
             <figure><img src="CS.jpg" class="img-fluid rounded shadow" alt="CS image"></figure>
 
             <p>I am currently working as a Research Assistant at Acadia University. This has provided me great experience with python and youtube API's.<br>
@@ -88,7 +98,7 @@ o https://getbootstrap.com/docs/4.1/getting-started/introduction/  --->
                         </tbody>
                     </table>
                 </div>
-
+                <br>
                 <!---Unordered list-->
                 <section class="mt-4">
                     <h4 class="text-secondry">Games I play</h4>
@@ -100,17 +110,23 @@ o https://getbootstrap.com/docs/4.1/getting-started/introduction/  --->
                     </ul>
                 </section>        
                 <br>
-            
-                <br>
-                <figure><img src="soccer.jpg" class="img-fluid rounded shadow" alt="Soccer image"></figure>
 
-                <P> I also like watching Sci-Fi Movies, my top 3 are:<br> </P>
+                <div class="text-center">
+                    <figure><img src="soccer.jpg" class="img-fluid rounded shadow" alt="Soccer image"></figure>
+                </div>
 
-                <table>
+                <!--table (another one)-->
+                <section class="mt-4">
+                    <h5 class="text-secondry">Favourite Sci-fi Movies</h5>
+                    <p>My top three fav Sci-Fi movies:</p>
+                <table class="table table-borded table-striped">
+                    <thead class="table-borded table-dark">
                     <tr>
                         <th>TOP-3</th>
                         <th>MOVIES</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>1</td>
                         <td>Interstellar</td>
@@ -123,9 +139,18 @@ o https://getbootstrap.com/docs/4.1/getting-started/introduction/  --->
                         <td>3</td>
                         <td>Inception</td>
                     </tr>
+                    </tbody>
                 </table>
+                </section>
                 <br>
-            <figure><img src="interstellar.jfif" class="img-fluid rounded shadow" alt="Interstellar image"></figure>
+                
+                <div class="text-center">
+                    <figure><img src="interstellar.jfif" class="img-fluid rounded shadow" alt="Interstellar image"></figure>
+                </div>
 
-        </body>    
-</html>
+                <!--Footer-->
+                <footer class="bg-dark text-white text-center py-3 mt-4">
+                    &copy; 2025 JJP
+                </footer>
+            </body>
+            </html>
